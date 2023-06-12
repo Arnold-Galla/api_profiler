@@ -1,0 +1,4 @@
+runtime: nodejs16
+service: default
+env_variables:
+  GAE_DB_SOCKET: '/cloudsql/dietcare-project:asia-southeast2:profilerdatabase'
